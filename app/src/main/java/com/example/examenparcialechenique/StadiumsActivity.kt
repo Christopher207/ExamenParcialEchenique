@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.RecyclerView
 
 class StadiumsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +20,7 @@ class StadiumsActivity : AppCompatActivity() {
             insets
         }
         val btnGoMainActivity: Button = findViewById(R.id.btnGoMainActivity)
+        val rvStadiums: RecyclerView = findViewById(R.id.rvStadiums)
 
 
         btnGoMainActivity.setOnClickListener {
