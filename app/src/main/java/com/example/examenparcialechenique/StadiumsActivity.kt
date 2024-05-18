@@ -23,6 +23,7 @@ class StadiumsActivity : AppCompatActivity() {
         val rvStadiums: RecyclerView = findViewById(R.id.rvStadiums)
 
 
+
         btnGoMainActivity.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

@@ -27,7 +27,6 @@ class TeamsActivity : AppCompatActivity() {
         )
         val btnGo2Menu: Button = findViewById(R.id.btnGo2Menu)
         val lvTeams: ListView = findViewById(R.id.lvTeams)
-        val listaTeams: ListIterator<String>
 
         val adaptador: Any =
             ArrayAdapter<Any?>(this,android.R.layout.simple_list_item_1,teams)
